@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0d3e5ae9ebc6ddeb5a1488f47136f7da",
+    "packages": [
+        {
+            "name": "shklyarik/psa-core",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shklyarik/psa-core.git",
+                "reference": "422755609c4be362a21a02ffa43f56e0d95d1d78"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shklyarik/psa-core/zipball/422755609c4be362a21a02ffa43f56e0d95d1d78",
+                "reference": "422755609c4be362a21a02ffa43f56e0d95d1d78",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Psa\\Core\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pavel Shklyarik",
+                    "email": "shklyarik.pavel@gmail.com"
+                }
+            ],
+            "description": "Light php framework",
+            "support": {
+                "source": "https://github.com/shklyarik/psa-core/tree/main",
+                "issues": "https://github.com/shklyarik/psa-core/issues"
+            },
+            "time": "2025-09-21T08:16:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "shklyarik/psa-core": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
