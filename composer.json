@@ -17,10 +17,15 @@
         {
           "type": "vcs",
           "url": "https://github.com/shklyarik/psa-core"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/shklyarik/psa-query-builder"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "shklyarik/psa-core": "dev-main"
+        "shklyarik/psa-core": "dev-main",
+        "shklyarik/psa-query-builder": "dev-main"
     }
 }

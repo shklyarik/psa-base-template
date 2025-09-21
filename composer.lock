@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d3e5ae9ebc6ddeb5a1488f47136f7da",
+    "content-hash": "837fbc971af22c69c4c6941225ed8047",
     "packages": [
         {
             "name": "shklyarik/psa-core",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shklyarik/psa-core.git",
-                "reference": "422755609c4be362a21a02ffa43f56e0d95d1d78"
+                "reference": "047a01b298fa878ecae4320fe55e618c357236d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shklyarik/psa-core/zipball/422755609c4be362a21a02ffa43f56e0d95d1d78",
-                "reference": "422755609c4be362a21a02ffa43f56e0d95d1d78",
+                "url": "https://api.github.com/repos/shklyarik/psa-core/zipball/047a01b298fa878ecae4320fe55e618c357236d6",
+                "reference": "047a01b298fa878ecae4320fe55e618c357236d6",
                 "shasum": ""
             },
             "default-branch": true,
@@ -41,14 +41,51 @@
                 "source": "https://github.com/shklyarik/psa-core/tree/main",
                 "issues": "https://github.com/shklyarik/psa-core/issues"
             },
-            "time": "2025-09-21T08:16:22+00:00"
+            "time": "2025-09-21T09:43:34+00:00"
+        },
+        {
+            "name": "shklyarik/psa-query-builder",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shklyarik/psa-query-builder.git",
+                "reference": "da62ad18555b193453556f215e04624c21aba044"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shklyarik/psa-query-builder/zipball/da62ad18555b193453556f215e04624c21aba044",
+                "reference": "da62ad18555b193453556f215e04624c21aba044",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Psa\\Qb\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pavel Shklyarik",
+                    "email": "shklyarik.pavel@gmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/shklyarik/psa-query-builder/tree/main",
+                "issues": "https://github.com/shklyarik/psa-query-builder/issues"
+            },
+            "time": "2025-09-21T10:18:56+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "shklyarik/psa-core": 20
+        "shklyarik/psa-core": 20,
+        "shklyarik/psa-query-builder": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
