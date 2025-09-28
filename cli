@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+new Psa\Core\Cli\App(
+    alias: [
+        '@app' => __DIR__,
+    ],
+    di: new Psa\Core\Common\Container(require_once __DIR__ . '/config/console.php'),
+    dispatcher: new Psa\Core\Cli\Dispatcher(require_once __DIR__ . '/config/commands.php')
+)->run();

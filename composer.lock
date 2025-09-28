@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "837fbc971af22c69c4c6941225ed8047",
+    "content-hash": "b1f2326dbcd2afab742a36ec0e412508",
     "packages": [
         {
             "name": "shklyarik/psa-core",
@@ -42,6 +42,42 @@
                 "issues": "https://github.com/shklyarik/psa-core/issues"
             },
             "time": "2025-09-21T09:43:34+00:00"
+        },
+        {
+            "name": "shklyarik/psa-migration",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shklyarik/psa-migration.git",
+                "reference": "6272b577943a4b3a9ebc0ec96b3d228d3fceeda0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shklyarik/psa-migration/zipball/6272b577943a4b3a9ebc0ec96b3d228d3fceeda0",
+                "reference": "6272b577943a4b3a9ebc0ec96b3d228d3fceeda0",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Psa\\Migration\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pavel Shklyarik",
+                    "email": "shklyarik.pavel@gmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/shklyarik/psa-migration/tree/main",
+                "issues": "https://github.com/shklyarik/psa-migration/issues"
+            },
+            "time": "2025-09-28T08:29:28+00:00"
         },
         {
             "name": "shklyarik/psa-query-builder",
@@ -85,6 +121,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "shklyarik/psa-core": 20,
+        "shklyarik/psa-migration": 20,
         "shklyarik/psa-query-builder": 20
     },
     "prefer-stable": false,

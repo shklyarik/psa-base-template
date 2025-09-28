@@ -21,11 +21,16 @@
         {
           "type": "vcs",
           "url": "https://github.com/shklyarik/psa-query-builder"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/shklyarik/psa-migration"
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "shklyarik/psa-core": "dev-main",
-        "shklyarik/psa-query-builder": "dev-main"
+        "shklyarik/psa-query-builder": "dev-main",
+        "shklyarik/psa-migration": "dev-main"
     }
 }
