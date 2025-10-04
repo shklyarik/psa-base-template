@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shklyarik/psa-core.git",
-                "reference": "047a01b298fa878ecae4320fe55e618c357236d6"
+                "reference": "0fb1fba390b910a055494c59fd992175dac8ae13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shklyarik/psa-core/zipball/047a01b298fa878ecae4320fe55e618c357236d6",
-                "reference": "047a01b298fa878ecae4320fe55e618c357236d6",
+                "url": "https://api.github.com/repos/shklyarik/psa-core/zipball/0fb1fba390b910a055494c59fd992175dac8ae13",
+                "reference": "0fb1fba390b910a055494c59fd992175dac8ae13",
                 "shasum": ""
             },
             "default-branch": true,
@@ -41,7 +41,7 @@
                 "source": "https://github.com/shklyarik/psa-core/tree/main",
                 "issues": "https://github.com/shklyarik/psa-core/issues"
             },
-            "time": "2025-09-21T09:43:34+00:00"
+            "time": "2025-09-28T11:47:41+00:00"
         },
         {
             "name": "shklyarik/psa-migration",
