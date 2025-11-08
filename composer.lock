@@ -4,8 +4,45 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b1f2326dbcd2afab742a36ec0e412508",
+    "content-hash": "9c6c5a98ea8df7968326215f659ac190",
     "packages": [
+        {
+            "name": "shklyarik/psa-cli-kit",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shklyarik/psa-cli-kit.git",
+                "reference": "00ffd68d5af245c29507888e5ac76e4363498179"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shklyarik/psa-cli-kit/zipball/00ffd68d5af245c29507888e5ac76e4363498179",
+                "reference": "00ffd68d5af245c29507888e5ac76e4363498179",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Psa\\CliKit\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pavel Shklyarik",
+                    "email": "shklyarik.pavel@gmail.com"
+                }
+            ],
+            "description": "A collection of common interactive command line user interfaces.",
+            "support": {
+                "source": "https://github.com/shklyarik/psa-cli-kit/tree/main",
+                "issues": "https://github.com/shklyarik/psa-cli-kit/issues"
+            },
+            "time": "2025-11-08T11:01:29+00:00"
+        },
         {
             "name": "shklyarik/psa-core",
             "version": "dev-main",
@@ -120,6 +157,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "shklyarik/psa-cli-kit": 20,
         "shklyarik/psa-core": 20,
         "shklyarik/psa-migration": 20,
         "shklyarik/psa-query-builder": 20

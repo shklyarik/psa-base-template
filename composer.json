@@ -25,12 +25,17 @@
         {
           "type": "vcs",
           "url": "https://github.com/shklyarik/psa-migration"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/shklyarik/psa-cli-kit"
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "shklyarik/psa-core": "dev-main",
         "shklyarik/psa-query-builder": "dev-main",
-        "shklyarik/psa-migration": "dev-main"
+        "shklyarik/psa-migration": "dev-main",
+        "shklyarik/psa-cli-kit": "dev-main"
     }
 }
