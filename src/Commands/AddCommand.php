@@ -9,7 +9,7 @@ class AddCommand
 {
     public function run(Db $db)
     {
-        $name = new InputField(placeholder: '📝 New task name: ')->value();
+        $name = new InputField('📝 New task name: ')->value();
 
         $db->from('tasks')->insert([
             'name' => $name,
