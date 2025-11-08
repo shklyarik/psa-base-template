@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shklyarik/psa-core.git",
-                "reference": "0fb1fba390b910a055494c59fd992175dac8ae13"
+                "reference": "c3d81871c348f1269488fdd38c5cdda16b61c9ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shklyarik/psa-core/zipball/0fb1fba390b910a055494c59fd992175dac8ae13",
-                "reference": "0fb1fba390b910a055494c59fd992175dac8ae13",
+                "url": "https://api.github.com/repos/shklyarik/psa-core/zipball/c3d81871c348f1269488fdd38c5cdda16b61c9ca",
+                "reference": "c3d81871c348f1269488fdd38c5cdda16b61c9ca",
                 "shasum": ""
             },
             "default-branch": true,
@@ -41,7 +41,7 @@
                 "source": "https://github.com/shklyarik/psa-core/tree/main",
                 "issues": "https://github.com/shklyarik/psa-core/issues"
             },
-            "time": "2025-09-28T11:47:41+00:00"
+            "time": "2025-10-29T20:03:29+00:00"
         },
         {
             "name": "shklyarik/psa-migration",
@@ -49,12 +49,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shklyarik/psa-migration.git",
-                "reference": "6272b577943a4b3a9ebc0ec96b3d228d3fceeda0"
+                "reference": "39fca41bf04e05b3d77e8e03df1647f39be6ef77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shklyarik/psa-migration/zipball/6272b577943a4b3a9ebc0ec96b3d228d3fceeda0",
-                "reference": "6272b577943a4b3a9ebc0ec96b3d228d3fceeda0",
+                "url": "https://api.github.com/repos/shklyarik/psa-migration/zipball/39fca41bf04e05b3d77e8e03df1647f39be6ef77",
+                "reference": "39fca41bf04e05b3d77e8e03df1647f39be6ef77",
                 "shasum": ""
             },
             "default-branch": true,
@@ -77,7 +77,7 @@
                 "source": "https://github.com/shklyarik/psa-migration/tree/main",
                 "issues": "https://github.com/shklyarik/psa-migration/issues"
             },
-            "time": "2025-09-28T08:29:28+00:00"
+            "time": "2025-11-01T14:29:43+00:00"
         },
         {
             "name": "shklyarik/psa-query-builder",
@@ -85,12 +85,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shklyarik/psa-query-builder.git",
-                "reference": "da62ad18555b193453556f215e04624c21aba044"
+                "reference": "e764fcfd347d3393190511d3a90fe34a0c1cb4af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shklyarik/psa-query-builder/zipball/da62ad18555b193453556f215e04624c21aba044",
-                "reference": "da62ad18555b193453556f215e04624c21aba044",
+                "url": "https://api.github.com/repos/shklyarik/psa-query-builder/zipball/e764fcfd347d3393190511d3a90fe34a0c1cb4af",
+                "reference": "e764fcfd347d3393190511d3a90fe34a0c1cb4af",
                 "shasum": ""
             },
             "default-branch": true,
@@ -113,7 +113,7 @@
                 "source": "https://github.com/shklyarik/psa-query-builder/tree/main",
                 "issues": "https://github.com/shklyarik/psa-query-builder/issues"
             },
-            "time": "2025-09-21T10:18:56+00:00"
+            "time": "2025-11-01T14:37:20+00:00"
         }
     ],
     "packages-dev": [],
