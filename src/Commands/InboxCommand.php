@@ -4,13 +4,13 @@ namespace App\Commands;
 
 use Psa\Qb\Db;
 
-class ListCommand
+class InboxCommand
 {
     public function run(Db $db)
     {
         $tasks = $db->from('tasks')
             ->select('name')
-            ->where(['is_deleted' => 0, 'is_done' => 0])
+            ->where(['is_deleted' => 0, 'is_done' => 0, 'category_id' => null])
             ->all();
 
         foreach ($tasks as $task) {
